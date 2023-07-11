@@ -7,6 +7,7 @@ pipeline {
                 echo 'Building.. This is the build phase'
             }
         }
+        i have changed this 
         stage('Test') {
             steps {
                 echo 'Testing.. This is the testing phase'
